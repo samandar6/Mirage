@@ -1,0 +1,112 @@
+.hero-section {
+    &-block {
+        margin-top: 110px;
+
+        &-flexbox {
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+            justify-content: space-between;
+
+            &-textBox {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 30px 0;
+
+                &-spanBox {
+                    display: flex;
+                    align-items: end;
+
+                    &__text {
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 24px;
+                        line-height: 40px;
+                        color: #F78CB6;
+                    }
+                }
+
+                &__title {
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 64px;
+                    line-height: 74px;
+                    color: #56597A;
+                    width: 599px;
+                }
+
+                .small-title {
+                    font-size: 52px;
+                    line-height: 62px;
+                    width: 502px;
+                }
+
+                &__text {
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 32px;
+                    letter-spacing: 0.02em;
+                    color: #919299;
+                    width: 537px;
+                }
+
+                &__btn {
+                    padding: 10px 50px;
+                    display: inline-block;
+                    background: #F78BB6;
+                    border-radius: 4px;
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 30px;
+                    letter-spacing: 0.02em;
+                    color: #FFFFFF;
+                    border: 1px solid #F78BB6;
+
+                    &:hover {
+                        background-color: #fff;
+                        color: #F78BB6;
+                    }
+                }
+
+                &-nameBox {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 5px 0;
+
+                    &__title {
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 28px;
+                        line-height: 32px;
+                        color: #56597A;
+                    }
+
+                    &__text {
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 32px;
+                        color: #ABABAB;
+                    }
+                }
+            }
+        }
+
+        .flex {
+            align-items: flex-start;
+        }
+    }
+    .second-section {
+        margin-top: 210px;
+    }
+
+}

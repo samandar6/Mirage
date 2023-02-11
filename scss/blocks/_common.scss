@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(/img/Vector\ 2.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+
+    section {
+        width: 1440px;
+        padding-left: 135px;
+    }
+
+    .container {
+        width: 1200px;
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}

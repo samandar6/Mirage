@@ -1,0 +1,96 @@
+.footer {
+    margin-top: 160px;
+	background-image: url(/img/Vector\ 4.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position-x: center;
+	background-position-y: bottom;
+
+    &-block {
+        height: 456.5px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+
+        &-flexbox {
+            padding-top: 71px;
+			display: flex;
+			align-items: center;
+			gap: 0 211px;
+			padding-left: 45px;
+
+			&-logoBox {
+				display: flex;
+				align-items: flex-start;
+				flex-direction: column;
+				gap: 38px 0;
+
+				&-adressBox {
+					display: flex;
+					flex-direction: column;
+
+					&__link {
+						font-family: 'Roboto';
+						font-style: normal;
+						font-weight: 400;
+						font-size: 16px;
+						line-height: 32px;
+						letter-spacing: 0.02em;
+						color: #919299;
+					}
+				}
+
+				&-followBox {
+					&__text {
+						font-family: 'Roboto';
+						font-style: normal;
+						font-weight: 700;
+						font-size: 20px;
+						line-height: 32px;
+						letter-spacing: 0.02em;
+						color: #919299;
+					}
+				}				
+			}
+
+			&-navBox {
+				display: flex;
+				gap: 0 168px;
+
+				&-nav {
+					display: flex;
+					flex-direction: column;
+					gap: 37px 0;
+
+					&__title {
+						font-family: 'Roboto';
+						font-style: normal;
+						font-weight: 500;
+						font-size: 24px;
+						line-height: 32px;
+						letter-spacing: 0.02em;
+						color: #56597A;
+					}
+
+					&-ul {
+						display: flex;
+						flex-direction: column;
+						gap: 25px 0;
+
+						&-li {
+							&__link {
+								font-family: 'Roboto';
+								font-style: normal;
+								font-weight: 400;
+								font-size: 20px;
+								line-height: 32px;
+								letter-spacing: 0.02em;
+								color: #919299;
+							}
+						}
+					}
+				}
+			}
+        }
+    }
+}

@@ -1,0 +1,36 @@
+.header {
+    width: 1440px;
+    padding-left: 135px;
+       
+    &-block {
+        &-flexbox {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+
+            &-nav {
+                &-ul {
+                    display: flex;
+                    gap: 0 73px;
+                    
+                    &-li {
+                        &__text {
+                            font-family: 'Roboto';
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 30px;
+                            color: #AAAAAB;
+                            transition: 0.4s ease;
+                        }
+
+                        &__text:hover {
+                            color: black;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
