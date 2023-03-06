@@ -35,13 +35,13 @@
                     font-size: 64px;
                     line-height: 74px;
                     color: #56597A;
-                    width: 599px;
+                    max-width: 599px;
                 }
 
                 .small-title {
                     font-size: 52px;
                     line-height: 62px;
-                    width: 502px;
+                    max-width: 502px;
                 }
 
                 &__text {
@@ -52,7 +52,7 @@
                     line-height: 32px;
                     letter-spacing: 0.02em;
                     color: #919299;
-                    width: 537px;
+                    max-width: 537px;
                 }
 
                 &__btn {
@@ -107,6 +107,52 @@
     }
     .second-section {
         margin-top: 210px;
+    }
+
+    @media (max-width: 940px) {
+        .hero-section {
+            &-block {
+                &-flexbox {
+                    flex-direction: column;
+                    text-align: center;
+                    gap: 70px 0;
+
+                    &__img {
+                        width: 90%;
+                    }
+                   
+                    &-textBox {
+                        align-items: center;
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width: 367px) {
+        .hero-section {
+            &-block {
+                &-flexbox {
+                    &-textBox {
+                        &__title {
+                            font-size: 45px;
+                            line-height: 50px;
+                        }
+
+                        &__btn {
+                            width: 70%;
+                            
+                        }
+
+                        .small-title {
+                            font-size: 32px;
+                            line-height: 42px;
+                            max-width: 502px;
+                        }
+                    }
+                }
+            }
+        }
     }
 
 }

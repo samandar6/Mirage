@@ -5,21 +5,13 @@
 }
 
 body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
     background-image: url(/img/Vector\ 2.png);
     background-repeat: no-repeat;
     background-position-x: right;
 
-    section {
-        width: 1440px;
-        padding-left: 135px;
-    }
-
     .container {
-        width: 1200px;
+        max-width: 1200px;
+        margin: 0 auto;
     }
 
     li {

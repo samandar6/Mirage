@@ -7,7 +7,7 @@
 	background-position-y: bottom;
 
     &-block {
-        height: 456.5px;
+        min-height: 456.5px;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
@@ -16,8 +16,9 @@
             padding-top: 71px;
 			display: flex;
 			align-items: center;
-			gap: 0 211px;
-			padding-left: 45px;
+			justify-content: space-between;
+			flex-wrap: wrap;
+			gap: 30px 50px;
 
 			&-logoBox {
 				display: flex;
@@ -55,7 +56,10 @@
 
 			&-navBox {
 				display: flex;
-				gap: 0 168px;
+				flex-wrap: wrap;
+				justify-content: center;
+				gap: 50px 168px;
+				text-align: center;
 
 				&-nav {
 					display: flex;
@@ -93,4 +97,19 @@
 			}
         }
     }
+
+	@media (max-width: 1017px) {
+		.footer {
+			&-block {
+				&-flexbox {
+					justify-content: center;
+					text-align: center;	
+
+					&-logoBox {
+						align-items: center;
+					}
+				}
+			}
+		}
+	}
 }

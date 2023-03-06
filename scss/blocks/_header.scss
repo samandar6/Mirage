@@ -1,18 +1,17 @@
-.header {
-    width: 1440px;
-    padding-left: 135px;
-       
+.header {   
     &-block {
         &-flexbox {
             display: flex;
             align-items: center;
             justify-content: space-between;
-
+            flex-wrap: wrap;
 
             &-nav {
                 &-ul {
                     display: flex;
                     gap: 0 73px;
+                    flex-wrap: wrap;
+                    justify-content: center;
                     
                     &-li {
                         &__text {
@@ -33,4 +32,15 @@
             }
         }
     }
+
+    @media (max-width: 540px) {
+        .header {
+            &-block {
+                &-flexbox {
+                    justify-content: center;
+                }
+            }
+        }        
+    }
+
 }
